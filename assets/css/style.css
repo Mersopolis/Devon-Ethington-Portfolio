@@ -1,0 +1,50 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: darkred;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+display: flex;
+}
+
+h1 {
+    width: 30%;
+    text-align: center;
+}
+
+nav {
+    width: 70%;
+}
+
+#navigation {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 15px auto;
+}
+
+main {
+    background-color: rgb(49, 107, 49);
+}
+
+main * {
+    color: tan;
+}
+
+#portrait {
+    border-radius: 20px;
+}
+
+footer {
+    padding: 20px;
+}
+
+#contact {
+    list-style: none;
+}
