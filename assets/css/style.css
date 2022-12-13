@@ -3,12 +3,13 @@
 }
 
 body {
-    background-color: darkred;
+    margin: 0;
+    background-color: rgb(68, 61, 175);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
-display: flex;
+    display: flex;
 }
 
 h1 {
@@ -30,15 +31,57 @@ nav li {
 }
 
 main {
-    background-color: rgb(49, 107, 49);
+    background-color: rgb(68, 61, 175);
 }
 
 main * {
     color: tan;
 }
 
-#portrait {
+.section {
+    background-color: rgb(64, 115, 64);
+    border: 10px solid rgb(68, 61, 175);
     border-radius: 20px;
+}
+
+#about {
+    display: flex;
+    max-width: 100%;
+}
+
+#portrait {
+    margin: 5%;
+    width: 40%;
+    border-radius: 20px;
+}
+
+#aboutp {
+    width: 50%;
+}
+
+#webapps h2 {
+    text-align: center;
+}
+
+#firstapp {
+    width: 90%;
+    margin: 5%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#otherapps {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 5%;
+}
+
+#otherapp {
+    margin: 1%;
+    width: 32%;
+    border: 2px solid black;
+    border-radius: 15px;
 }
 
 footer {
