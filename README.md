@@ -1,5 +1,6 @@
 # Devon-Ethington-Portfolio
 Devon Ethington's Programming Portfolio
+https://mersopolis.github.io/Devon-Ethington-Portfolio/
 
 ## Description
 Devon Ethington's website for displaying coding knowledge and experience to potential clients and employers.
@@ -24,8 +25,8 @@ Click on a navigation link at the top of the page to jump to the corresponding s
 Click on a project in the Web Apps section to be taken to the deployed website for the app.
 
 ## Support
-If you have any problems or questions, here is my contact info:
-Email: [mersopolis@gmail.com](mailto:mersopolis@gmail.com)
+If you have any problems or questions, here is my contact info:<br/>
+Email: [mersopolis@gmail.com](mailto:mersopolis@gmail.com)<br/>
 GitHub: [Mersopolis](https://github.com/Mersopolis)
 
 ## Roadmap
