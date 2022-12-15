@@ -7,9 +7,7 @@ Devon Ethington's website for displaying coding knowledge and experience to pote
 ## Visuals
 The site should look like this when the viewport is wider than 1280 pixels:<br/>
 ![The website at 1280p](./assets/images/Portfolio%201280p.png)<br/>
-Like this at between 1080 and 1280 pixels:<br/>
-![The website at 1080p](./assets/images/Portfolio%201080p.png)<br/>
-Like this between 798 and 1080 pixels:<br/>
+Like this between 798 and 1280 pixels:<br/>
 ![The website at 798p](./assets/images/Portfolio%20798p.png)<br/>
 Like this between 634 and 798 pixels:<br/>
 ![The website at 634p](./assets/images/Portfolio%20634p.png)<br/>
