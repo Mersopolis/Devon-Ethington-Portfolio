@@ -1,249 +1,249 @@
 * {
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* Body */
 body {
-    background-color: rgb(68, 61, 175);
-    margin: auto;
+  background-color: rgb(68, 61, 175);
+  margin: auto;
 }
 /* Header */
 header {
-    display: flex;
-    width: 96%;
-    margin: auto auto -2% 2%;
+  display: flex;
+  width: 96%;
+  margin: auto auto -2% 2%;
 }
 
 .header {
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
-    width: 45%;
+  width: 45%;
 }
 /* Navigation */
 nav {
-    width: 55%;
-    margin-left: -9%;
+  width: 55%;
+  margin-left: -9%;
 }
 
 nav ul {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 nav li {
-    margin: 15px auto auto auto;
-    width: 50%;
+  margin: 15px auto auto auto;
+  width: 50%;
 }
 
 nav li:hover {
-    text-shadow: white 0 0 2px;
-    transition: all 0.2s ease-in-out;
+  text-shadow: white 0 0 2px;
+  transition: all 0.2s ease-in-out;
 }
 /* Main Content */
 main * {
-    color: tan;
+  color: tan;
 }
 
 section {
-    background-color: rgb(64, 115, 64);
-    border: 10px solid rgb(68, 61, 175);
-    border-radius: 20px;
+  background-color: rgb(64, 115, 64);
+  border: 10px solid rgb(68, 61, 175);
+  border-radius: 20px;
 }
 /* About Me */
 #about {
-    display: flex;
-    max-width: 100%;
+  display: flex;
+  max-width: 100%;
 }
 
 #portrait {
-    margin: 20px;
-    width: 40%;
-    max-width: 300px;
-    height: 100%;
-    max-height: 300px;
-    border-radius: 20px;
+  margin: 20px;
+  width: 40%;
+  max-width: 300px;
+  height: 100%;
+  max-height: 300px;
+  border-radius: 20px;
 }
 
 article {
-    width: auto;
-    margin-right: 20px;
+  width: auto;
+  margin-right: 20px;
 }
 /* Web Apps */
 #webapps {
-    margin: auto;
+  margin: auto;
 }
 
 #webapps h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .app {
-    position: relative;
-    margin: 1%;
-    max-width: 22%;
-    border: 2px solid black;
-    border-radius: 15px;
-    overflow: hidden;
+  position: relative;
+  margin: 1%;
+  max-width: 22%;
+  border: 2px solid black;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .app img {
-    filter: saturate(50%);
-    max-height: 200px;
-    max-width: 100%;
-    border-radius: 15px;
-    vertical-align: bottom;
+  filter: saturate(50%);
+  max-height: 200px;
+  max-width: 100%;
+  border-radius: 15px;
+  vertical-align: bottom;
 }
 
 .app h3 {
-    position: absolute;
-    padding: 5px;
-    bottom: 0;
-    color: rgb(68, 61, 175);
-    text-decoration: underline;
-    background-color: white;
+  position: absolute;
+  padding: 5px;
+  bottom: 0;
+  color: rgb(68, 61, 175);
+  text-decoration: underline;
+  background-color: white;
 }
 
 .app:hover {
-    filter: saturate(200%);
-    box-shadow: black 0 0 5px;
-    text-shadow: rgb(68, 61, 175) 0 0 2px;
-    transition: all 0.2s ease-in-out;
+  filter: saturate(200%);
+  box-shadow: black 0 0 5px;
+  text-shadow: rgb(68, 61, 175) 0 0 2px;
+  transition: all 0.2s ease-in-out;
 }
 /* First App */
 #firstapp {
-    display: block;
-    width: fit-content;
-    max-width: 95%;
-    max-height: 98%;
-    margin: auto;
+  display: block;
+  width: fit-content;
+  max-width: 95%;
+  max-height: 98%;
+  margin: auto;
 }
 
 #firstapp img {
-    max-height: 400px;
+  max-height: 400px;
 }
 /* Other Apps */
 #otherapps {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 98%;
-    margin: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 98%;
+  margin: 1%;
 }
 /* Footer */
 footer {
-    padding: 20px;
+  padding: 20px;
 }
 
 /* Contact Info */
 #contact {
-    list-style: none;
+  list-style: none;
 }
 
 #contact a:hover {
-    text-shadow: white 0 0 2px;
-    transition: all 0.2s ease-in-out;
+  text-shadow: white 0 0 2px;
+  transition: all 0.2s ease-in-out;
 }
 /* Copyright */
 h4 {
-    margin: 5% auto auto auto;
-    text-align: center;
+  margin: 5% auto auto auto;
+  text-align: center;
 }
 
 h5 {
-    margin: auto;
-    text-align: center;
+  margin: auto;
+  text-align: center;
 }
 /* Screen Size Accesibility */
 /* 798px-1280px */
 @media screen and (max-width: 1280px) {
-    /* About Me */
-    #portrait {
-        margin: 2%;
-        max-width: 400px;
-        max-height: 400px;
-    }
-    article {
-        max-width: 68%;
-        margin-right: 1%;
-    }
-    /* Web Apps */
-    .app {
-        max-width: 31%;
-    }
-    .app img {
-        max-height: 300px;
-    }
+  /* About Me */
+  #portrait {
+    margin: 2%;
+    max-width: 400px;
+    max-height: 400px;
+  }
+  article {
+    max-width: 68%;
+    margin-right: 1%;
+  }
+  /* Web Apps */
+  .app {
+    max-width: 31%;
+  }
+  .app img {
+    max-height: 300px;
+  }
 }
 /* 634px-798px */
 @media screen and (max-width: 798px) {
-    /* Web Apps */
-    .app {
-        max-width: 46%;
-    }
+  /* Web Apps */
+  .app {
+    max-width: 46%;
+  }
 }
 /* 256px-634px */
 @media screen and (max-width: 634px) {
-    /* Header */
-    header {
-        flex-direction: column;
-    }
-    h1 {
-        width: 100%;
-        margin: 2% auto auto -2%;
-    }
-    /* Navigation */
-    nav {
-        width: 100%;
-        margin-left: -7%;
-    }
-    nav li {
-        width: 33%;
-        margin: auto;
-    }
-    /* About Me */
-    #about {
-        flex-direction: column;
-    }
-    #portrait {
-        width: 90%;
-        margin: 5% auto auto auto;
-    }
-    article {
-        max-width: 90%;
-        margin-left: 3%;
-    }
-    /* Web Apps */
-    .app {
-        max-width: 90%;
-    }
-    .app img {
-        border-radius: 15px 15px 0 0;
-    }
-    .app h3 {
-        position: initial;
-        margin: auto;
-        padding-left: 2%;
-        border-radius: 0 0 15px 15px;
-    }
-    /* First App */
-    #firstapp {
-        width: 95%;
-        margin: auto;
-    }
+  /* Header */
+  header {
+    flex-direction: column;
+  }
+  h1 {
+    width: 100%;
+    margin: 2% auto auto -2%;
+  }
+  /* Navigation */
+  nav {
+    width: 100%;
+    margin-left: -7%;
+  }
+  nav li {
+    width: 33%;
+    margin: auto;
+  }
+  /* About Me */
+  #about {
+    flex-direction: column;
+  }
+  #portrait {
+    width: 90%;
+    margin: 5% auto auto auto;
+  }
+  article {
+    max-width: 90%;
+    margin-left: 3%;
+  }
+  /* Web Apps */
+  .app {
+    max-width: 90%;
+  }
+  .app img {
+    border-radius: 15px 15px 0 0;
+  }
+  .app h3 {
+    position: initial;
+    margin: auto;
+    padding-left: 2%;
+    border-radius: 0 0 15px 15px;
+  }
+  /* First App */
+  #firstapp {
+    width: 95%;
+    margin: auto;
+  }
 }
 /* Less than 256px */
 @media screen and (max-width: 256px) {
-    /* Navigation */
-    nav {
-        margin-left: -10%;
-    }
-    nav ul {
-        flex-direction: column;
-    }
-    nav li {
-        width: 100%;
-        margin-top: 1%;
-    }
+  /* Navigation */
+  nav {
+    margin-left: -10%;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    width: 100%;
+    margin-top: 1%;
+  }
 }
