@@ -113,6 +113,7 @@ article {
 }
 /* First App */
 #firstapp {
+    display: block;
     width: fit-content;
     max-width: 95%;
     max-height: 98%;
