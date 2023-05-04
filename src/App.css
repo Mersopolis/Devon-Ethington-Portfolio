@@ -308,7 +308,7 @@ article {
   transition: all 0.2s ease-in-out;
 }
 /* First App */
-#firstapp {
+#first-app {
   display: block;
   width: fit-content;
   max-width: 95%;
@@ -316,11 +316,11 @@ article {
   margin: auto;
 }
 
-#firstapp img {
+#first-app img {
   max-height: 400px;
 }
 /* Other Apps */
-#otherapps {
+#other-apps {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

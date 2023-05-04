@@ -1,9 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
+import ContactForm from "../ContactForm";
 
-export default function Contact() {
+function Contact(props) {
+  
+  
+
   return (
     <div>
       <h1>Contact Page</h1>
+      <hr />
+      <h2>Contact Form</h2>
+      <ContactForm />
       
       <ul id="contact">
         <li><h3>Contact Info:</h3></li>
@@ -13,3 +20,5 @@ export default function Contact() {
     </div>
   );
 }
+
+export default Contact;
