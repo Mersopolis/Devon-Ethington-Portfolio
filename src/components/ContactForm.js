@@ -21,14 +21,13 @@ function ContactForm(props) {
   };
 
   return (
-    <div>
-      <form className="bucket-form" onSubmit={handleSubmit}>
+      <form className="contact-form" onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="Name"
           value={input}
           name="text"
-          className="bucket-input"
+          className="contact-input"
           id="name-input"
           onChange={handleChange}
         ></input>
@@ -37,22 +36,21 @@ function ContactForm(props) {
           placeholder="Email"
           value={input}
           name="text"
-          className="bucket-input"
+          className="contact-input"
           id="email-input"
           onChange={handleChange}
         ></input>
-        <input
+        <textarea
           type="text"
           placeholder="Message"
           value={input}
           name="text"
-          className="bucket-input"
+          className="contact-input"
           id="message-input"
           onChange={handleChange}
-        ></input>
-        <button className="bucket-button">Send Message</button>
+        ></textarea>
+        <button className="contact-button">Send Message</button>
       </form>
-    </div>
   );
 }
 

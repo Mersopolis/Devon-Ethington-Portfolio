@@ -1,10 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Navigation from "./Navigation";
 
-export default function Header() {
-
-const [currentPage, setCurrentPage] = useState('Home');
-const handlePageChange = (page) => setCurrentPage(page);
+export default function Header({currentPage, handlePageChange}) {
 
   return (
     <header>
