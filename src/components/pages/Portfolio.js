@@ -3,8 +3,8 @@ import Project from '../Project';
 
 export default function Blog() {
   return (
-    <section id="projects">
-      <h2>Projects</h2>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
       <Project arg="0" />
       <div id="other-apps">
         <Project arg="1"/>

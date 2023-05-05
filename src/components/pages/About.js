@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
   return (
     <section id="about">
-        <img id="portrait" src="https://i.imgur.com/KpSGA00.jpg" alt="Devon Ethington" />
+        <img id="portrait" src="./images/Devon and Izzy.jpg" alt="Devon Ethington holding his mini goldendoodle puppy Izzy" />
         <article id="aboutme">
         <h2>About Me</h2>
           <p>
