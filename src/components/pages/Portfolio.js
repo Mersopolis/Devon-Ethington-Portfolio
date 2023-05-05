@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from '../Project';
 
-export default function Blog() {
+export default function Portfolio() {
   return (
     <section id="portfolio">
       <h2>Portfolio</h2>

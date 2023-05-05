@@ -7,6 +7,17 @@ body {
   background-color: rgb(68, 61, 175);
   margin: auto;
 }
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-shadow: white 0 0 2px;
+  transition: all 0.2s ease-in-out;
+}
+
 .portfolio-app {
   display: flex;
   flex-direction: column;
@@ -45,19 +56,6 @@ nav {
 .nav-item {
   vertical-align: center;
   width: 50%;
-}
-
-.nav-link:hover {
-  text-shadow: white 0 0 2px;
-  transition: all 0.2s ease-in-out;
-}
-
-a {
-  color: white;
-}
-
-a:hover {
-  color: white;
 }
 
 .active {
@@ -204,11 +202,6 @@ article {
   color: black;
 }
 
-.contact-input:window-inactive {
-  border-color: red;
-  
-}
-
 #message-input {
   overflow-wrap:break-word;
   width: 400px;
@@ -236,28 +229,32 @@ article {
 #contact-info a{
   text-decoration: underline;
 }
-
-#contact-info a:hover {
-  text-shadow: white 0 0 2px;
-  transition: all 0.2s ease-in-out;
-}
 /* Resume */
 #resume {
   margin: 5px auto;
+  padding: 20px 0;
 }
 
-#resume p {
-  padding: 10px;
-  text-align: left;
+#resume h3 {
+  text-decoration: underline;
 }
 
-#resume p * {
-  margin: auto;
-  text-align: left;
+#resume ul {
+  list-style: none;
+  margin-left: -35px;
 }
 /* Footer */
 footer {
   padding: 20px;
+}
+
+#footer-links {
+  list-style-type: none;
+  margin-left: -35px;
+}
+
+#footer-links * a {
+  text-decoration: underline;
 }
 /* Copyright */
 footer h5 {

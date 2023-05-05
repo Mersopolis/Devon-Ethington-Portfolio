@@ -49,7 +49,7 @@ function Project(props) {
   
   if (props.arg === "0") {
     return (
-      <div id="first-app" class="app">
+      <div id="first-app" className="app">
         <a href={projectsArray[0].link}>
           <img src={projectsArray[0].imgSrc} alt ={projectsArray[0].imgAlt} />
           <h3>{projectsArray[0].name}</h3>
@@ -59,7 +59,7 @@ function Project(props) {
     );
   }
   return (
-    <div class="app">
+    <div className="app">
       <a href={projectsArray[props.arg].link}>
         <img src={projectsArray[props.arg].imgSrc} alt ={projectsArray[props.arg].imgAlt} />
         <h3>{projectsArray[props.arg].name}</h3>
