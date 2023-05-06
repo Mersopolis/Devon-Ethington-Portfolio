@@ -1,42 +1,77 @@
-# Devon-Ethington-Portfolio
-Devon Ethington's Programming Portfolio
+# Devon Ethington Portfolio
 https://mersopolis.github.io/Devon-Ethington-Portfolio/
+
+## Badges
+![MIT License](https://img.shields.io/badge/license-MIT%20License-green)
 
 ## Description
 Devon Ethington's website for displaying coding knowledge and experience to potential clients and employers.
 
+## Table of Contents
+- [Visuals](#visuals)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [License](#license)
+
 ## Visuals
 The site should look like this when the viewport is wider than 1280 pixels:<br/>
-![The website at 1280p](./assets/images/Portfolio%201280p.png)<br/>
+![The About Me section at 1282 pixels wide](./public/images/About%201282.png) <br/>
+![The Portfolio section at 1282 pixels wide](./public/images/Portfolio%201282.png)<br/>
+![The Contact section at 1282 pixels wide](./public/images/Contact%201282.png)<br/>
+![The Resume section at 1282 pixels wide](./public/images/Resume%201282.png)<br/>
 Like this between 798 and 1280 pixels:<br/>
-![The website at 798p](./assets/images/Portfolio%20798p.png)<br/>
+![The About Me section at 800 pixels wide](./public/images/About%20800.png)<br/>
+![The Portfolio section at 800 pixels wide](./public/images/Portfolio%20800.png)<br/>
+![The Contact section at 800 pixels wide](./public/images/Contact%20800.png)<br/>
+![The Resume section at 800 pixels wide](./public/images/Resume%20800.png)<br/>
 Like this between 634 and 798 pixels:<br/>
-![The website at 634p](./assets/images/Portfolio%20634p.png)<br/>
-Like this between 256 and 634 pixels:<br/>
-![The website at 256p](./assets/images/Portfolio%20256p.png)<br/>
-And like this when narrower than 256 pixels:<br/>
-![The website at 254p](./assets/images/Portfolio%20254p.png)
+![The About Me section at 636 pixels wide](./public/images/About%20636.png)<br/>
+![The Portfolio section at 636 pixels wide](./public/images/Portfolio%20636.png)<br/>
+![The Contact section at 636 pixels wide](./public/images/Contact%20636.png)<br/>
+![The Resume section at 636 pixels wide](./public/images/Resume%20636.png)<br/>
+Like this between 400 and 634 pixels:<br/>
+![The About Me section at 402 pixels wide](./public/images/About%20402.png)<br/>
+![The Portfolio section at 402 pixels wide](./public/images/Portfolio%20402.png)<br/>
+![The Contact section at 402 pixels wide](./public/images/Contact%20402.png)<br/>
+![The Resume section at 402 pixels wide](./public/images/Resume%20402.png)<br/>
+And like this when 400 pixels wide or narrower:<br/>
+![The About Me section at 400 pixels wide](./public/images/About%20400.png)<br/>
+![The Portfolio section at 400 pixels wide](./public/images/Portfolio%20400.png)<br/>
+![The Contact section at 400 pixels wide](./public/images/Contact%20400.png)<br/>
+![The Resume section at 400 pixels wide](./public/images/Resume%20400.png)<br/>
 
 ## Installation
 N/A
 
 ## Usage
 Click on a navigation link at the top of the page to jump to the corresponding section.<br/>
-Click on a project in the Web Apps section to be taken to the deployed website for the app.
+Click any of the links in the footer at the bottom of the page to be taken to the corresponding profile.<br/>
+Click on a project in the Portfolio section to be taken to the deployed website for the app. Click on "GitHub" to be taken to its GitHub repository.<br/>
+Enter a name, an email, and a message in the Contact section then click the Send Message button to send me a message. Click the Email link to be taken to your email app, ready to send me an email directly.<br/>
+Click the View/Download My Resume Here button in the Resume section to do so.
 
-## Support
-If you have any problems or questions, here is my contact info:<br/>
-Email: [mersopolis@gmail.com](mailto:mersopolis@gmail.com)<br/>
+## Tests
+N/A
+
+## Questions
+Questions can be directed to this GitHub profile or this email.
+
 GitHub: [Mersopolis](https://github.com/Mersopolis)
 
+Email: [mersopolis@gmail.com](mailto:mersopolis@gmail.com)
+
 ## Roadmap
-Web applications and other programming work will be added as they are developed.
+Projects will be added as they are developed.
 
 ## Contributing
 N/A
 
-## Authors and acknowledgment
-normalize.css from https://csstools.github.io/normalize.css/
+## Credits
+Code based on work done by the University of Utah (See commit "Copied React App").
 
 ## License
 MIT License

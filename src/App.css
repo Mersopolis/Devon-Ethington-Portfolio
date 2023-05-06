@@ -62,7 +62,7 @@ nav {
   background-color: rgb(64, 115, 64);
   border: 5px solid rgb(64, 115, 64);
   border-radius: 5px;
-  padding-bottom: 25px;
+  padding-bottom: 30px;
 }
 /* Main Content */
 main * {
@@ -84,9 +84,7 @@ section {
 
 #portrait {
   margin: 20px;
-  width: 40%;
   max-width: 300px;
-  height: 100%;
   max-height: 300px;
   border-radius: 20px;
 }
