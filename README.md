@@ -71,7 +71,7 @@ Projects will be added as they are developed.
 N/A
 
 ## Credits
-Code based on work done by the University of Utah (See commit "Copied React App").
+Code based on work done by the University of Utah (See commit "Copied React App").<br/>Node.js https://nodejs.org/en/ <br/>npm https://www.npmjs.com/ <br/><br/>Create React App https://create-react-app.dev/ <br/><br/> gh-pages https://www.npmjs.com/package/gh-pages
 
 ## License
 MIT License
