@@ -62,7 +62,7 @@ nav {
   background-color: rgb(64, 115, 64);
   border: 5px solid rgb(64, 115, 64);
   border-radius: 5px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 /* Main Content */
 main * {
@@ -211,6 +211,14 @@ article {
   min-height: 2rem;
 }
 
+.required {
+  border-color: red;
+}
+
+.required::placeholder {
+  color: red;
+}
+
 .contact-button {
   padding: 16px;
   max-width: fit-content;
@@ -262,7 +270,7 @@ footer h5 {
   text-align: center;
 }
 /* Screen Size Accesibility */
-/* 798px-1280px */
+/* less than 1280px */
 @media screen and (max-width: 1280px) {
   /* About Me */
   #portrait {
@@ -274,7 +282,7 @@ footer h5 {
     max-width: 68%;
     margin-right: 1%;
   }
-  /* Web Apps */
+  /* Portfolio */
   .app {
     max-width: 31%;
   }
@@ -282,14 +290,14 @@ footer h5 {
     max-height: 300px;
   }
 }
-/* 634px-798px */
+/* less than 798px */
 @media screen and (max-width: 798px) {
-  /* Web Apps */
+  /* Portfolio */
   .app {
     max-width: 46%;
   }
 }
-/* 256px-634px */
+/* less than 634px */
 @media screen and (max-width: 634px) {
   /* Header */
   header {
@@ -297,7 +305,8 @@ footer h5 {
   }
   h1 {
     width: 100%;
-    margin: 2% auto auto -2%;
+    margin: auto;
+    padding-top: 1%
   }
   /* Navigation */
   nav {
@@ -313,14 +322,14 @@ footer h5 {
     flex-direction: column;
   }
   #portrait {
-    width: 90%;
+    max-width: 90%;
     margin: 5% auto auto auto;
   }
   article {
     max-width: 90%;
     margin-left: 3%;
   }
-  /* Web Apps */
+  /* Portfolio */
   .app {
     max-width: 90%;
   }
@@ -338,18 +347,27 @@ footer h5 {
     width: 95%;
     margin: auto;
   }
-}
-/* Less than 256px */
-@media screen and (max-width: 256px) {
-  /* Navigation */
-  nav {
-    margin-left: -10%;
+  /* Contact */
+  .contact-input {
+    max-width: 250px;
   }
+
+  #message-input {
+    max-width: 250px;
+  }
+
+  #contact-page {
+    flex-direction: column;
+  }
+}
+/* less than 400px */
+@media screen and (max-width: 400px) {
+  /* Navigation */
   nav ul {
     flex-direction: column;
   }
-  nav li {
-    width: 100%;
-    margin-top: 1%;
+
+  .active {
+    padding-bottom: 0;
   }
 }

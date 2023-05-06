@@ -1,53 +1,90 @@
 import React, { useState } from 'react';
+import { postDb } from "../database";
 
-function ContactForm(props) {
-  const [input, setInput] = useState('');
+function ContactForm() {
+  const [nameInput, setNameInput] = useState('');
+  const [emailInput, setEmailInput] = useState('');
+  const [messageInput, setMessageInput] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    props.onSubmit({
-      id: Math.random(Math.floor() * 1000),
-      name: input,
-      email: input,
-      message: input
-    });
+    const message = {
+      name: nameInput,
+      email: emailInput,
+      message: messageInput
+    }
 
-    setInput('');
+    if (!emailInput || !messageInput) {
+      window.alert("Please enter an email and a message");
+      return
+    }
+
+    postDb(message);
+
+    window.alert("Thank you!");
+
+    setNameInput('');
+    setEmailInput('');
+    setMessageInput('');
   };
 
-  const handleChange = (e) => {
-    setInput(e.target.value);
+  const handleNameChange = (e) => {
+    setNameInput(e.target.value);
   };
+  const handleEmailChange = (e) => {
+    setEmailInput(e.target.value);
+  };
+  const handleMessageChange = (e) => {
+    setMessageInput(e.target.value);
+  };
+  const handleEmailRequired = (e) => {
+    if (!e.target.value) {
+      e.target.classList.add("required")
+    }
+    else {
+      e.target.classList.remove("required")
+    }
+  }
+  const handleMessageRequired = (e) => {
+    if (!e.target.value) {
+      e.target.classList.add("required")
+    }
+    else {
+      e.target.classList.remove("required")
+    }
+  }
 
   return (
       <form className="contact-form" onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="Name"
-          value={input}
+          value={nameInput}
           name="text"
           className="contact-input"
           id="name-input"
-          onChange={handleChange}
+          onChange={handleNameChange}
         ></input>
         <input
           type="text"
-          placeholder="Email"
-          value={input}
+          placeholder="Email (required)"
+          value={emailInput}
           name="text"
           className="contact-input"
           id="email-input"
-          onChange={handleChange}
+          onChange={handleEmailChange}
+          onMouseLeave={handleEmailRequired}
         ></input>
         <textarea
           type="text"
-          placeholder="Message"
-          value={input}
+          placeholder="Message (required)"
+          value={messageInput}
           name="text"
           className="contact-input"
           id="message-input"
-          onChange={handleChange}
+          onChange={handleMessageChange}
+          onMouseLeave={handleMessageRequired}
         ></textarea>
         <button className="contact-button">Send Message</button>
       </form>
