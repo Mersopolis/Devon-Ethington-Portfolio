@@ -19,30 +19,30 @@ Devon Ethington's website for displaying coding knowledge and experience to pote
 
 ## Visuals
 The site should look like this when the viewport is wider than 1280 pixels:<br/>
-![The About Me section at 1282 pixels wide](./public/images/About%201282.png) <br/>
-![The Portfolio section at 1282 pixels wide](./public/images/Portfolio%201282.png)<br/>
-![The Contact section at 1282 pixels wide](./public/images/Contact%201282.png)<br/>
-![The Resume section at 1282 pixels wide](./public/images/Resume%201282.png)<br/>
+![The About Me section at 1282 pixels wide](./images/About%201282.png) <br/>
+![The Portfolio section at 1282 pixels wide](./images/Portfolio%201282.png)<br/>
+![The Contact section at 1282 pixels wide](./images/Contact%201282.png)<br/>
+![The Resume section at 1282 pixels wide](./images/Resume%201282.png)<br/>
 Like this between 798 and 1280 pixels:<br/>
-![The About Me section at 800 pixels wide](./public/images/About%20800.png)<br/>
-![The Portfolio section at 800 pixels wide](./public/images/Portfolio%20800.png)<br/>
-![The Contact section at 800 pixels wide](./public/images/Contact%20800.png)<br/>
-![The Resume section at 800 pixels wide](./public/images/Resume%20800.png)<br/>
+![The About Me section at 800 pixels wide](./images/About%20800.png)<br/>
+![The Portfolio section at 800 pixels wide](./images/Portfolio%20800.png)<br/>
+![The Contact section at 800 pixels wide](./images/Contact%20800.png)<br/>
+![The Resume section at 800 pixels wide](./images/Resume%20800.png)<br/>
 Like this between 634 and 798 pixels:<br/>
-![The About Me section at 636 pixels wide](./public/images/About%20636.png)<br/>
-![The Portfolio section at 636 pixels wide](./public/images/Portfolio%20636.png)<br/>
-![The Contact section at 636 pixels wide](./public/images/Contact%20636.png)<br/>
-![The Resume section at 636 pixels wide](./public/images/Resume%20636.png)<br/>
+![The About Me section at 636 pixels wide](./images/About%20636.png)<br/>
+![The Portfolio section at 636 pixels wide](./images/Portfolio%20636.png)<br/>
+![The Contact section at 636 pixels wide](./images/Contact%20636.png)<br/>
+![The Resume section at 636 pixels wide](./images/Resume%20636.png)<br/>
 Like this between 400 and 634 pixels:<br/>
-![The About Me section at 402 pixels wide](./public/images/About%20402.png)<br/>
-![The Portfolio section at 402 pixels wide](./public/images/Portfolio%20402.png)<br/>
-![The Contact section at 402 pixels wide](./public/images/Contact%20402.png)<br/>
-![The Resume section at 402 pixels wide](./public/images/Resume%20402.png)<br/>
+![The About Me section at 402 pixels wide](./images/About%20402.png)<br/>
+![The Portfolio section at 402 pixels wide](./images/Portfolio%20402.png)<br/>
+![The Contact section at 402 pixels wide](./images/Contact%20402.png)<br/>
+![The Resume section at 402 pixels wide](./images/Resume%20402.png)<br/>
 And like this when 400 pixels wide or narrower:<br/>
-![The About Me section at 400 pixels wide](./public/images/About%20400.png)<br/>
-![The Portfolio section at 400 pixels wide](./public/images/Portfolio%20400.png)<br/>
-![The Contact section at 400 pixels wide](./public/images/Contact%20400.png)<br/>
-![The Resume section at 400 pixels wide](./public/images/Resume%20400.png)<br/>
+![The About Me section at 400 pixels wide](./images/About%20400.png)<br/>
+![The Portfolio section at 400 pixels wide](./images/Portfolio%20400.png)<br/>
+![The Contact section at 400 pixels wide](./images/Contact%20400.png)<br/>
+![The Resume section at 400 pixels wide](./images/Resume%20400.png)<br/>
 
 ## Installation
 N/A
