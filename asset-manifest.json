@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Devon-Ethington-Portfolio/static/css/main.52d8aac4.css",
-    "main.js": "/Devon-Ethington-Portfolio/static/js/main.b21274bf.js",
+    "main.js": "/Devon-Ethington-Portfolio/static/js/main.b47fedbc.js",
     "index.html": "/Devon-Ethington-Portfolio/index.html",
     "main.52d8aac4.css.map": "/Devon-Ethington-Portfolio/static/css/main.52d8aac4.css.map",
-    "main.b21274bf.js.map": "/Devon-Ethington-Portfolio/static/js/main.b21274bf.js.map"
+    "main.b47fedbc.js.map": "/Devon-Ethington-Portfolio/static/js/main.b47fedbc.js.map"
   },
   "entrypoints": [
     "static/css/main.52d8aac4.css",
-    "static/js/main.b21274bf.js"
+    "static/js/main.b47fedbc.js"
   ]
 }
