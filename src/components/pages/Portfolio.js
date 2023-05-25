@@ -12,6 +12,7 @@ export default function Portfolio() {
         <Project arg="3"/>
         <Project arg="4"/>
         <Project arg="5"/>
+        <Project arg="6"/>
       </div>
     </section>
   );

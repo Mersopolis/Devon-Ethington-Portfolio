@@ -44,6 +44,13 @@ function Project(props) {
       github: "https://github.com/Mersopolis/Cloud-Merso",
       imgSrc: "./images/Terminal ASCII Cloud.png",
       imgAlt: "ASCII art of a cloud"
+    },
+    {
+      name: "Photographer/Videographer Finder Network",
+      link: "http://viewfinder.herokuapp.com/",
+      github: "https://github.com/Mersopolis/Cloud-Merso",
+      imgSrc: "./images/View Finder Logo Zoomed In.png",
+      imgAlt: "An outline of a camera with the title View Finder"
     }
   ];
   
