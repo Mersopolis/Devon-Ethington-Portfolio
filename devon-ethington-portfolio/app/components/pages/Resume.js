@@ -2,7 +2,7 @@ export default function Resume() {
   return (
     <section id='resume'>
       <h2>Resume</h2>
-      <a href="./././public/ComputerResume_DevonEthington.pdf"><h3>View/Download My Resume Here</h3></a>
+      <a href="./././ComputerResumeDevonEthington.pdf" target="_blank"><h3>View/Download My Resume Here</h3></a>
         <hr/>
         <h2>Skills:</h2>
         <div id='skillList'>

@@ -4,7 +4,7 @@ function Project(props) {
     {
       name: "Flexi",
       link: "https://www.thinksai.com/products-flexi-family/",
-      imgSrc: "./images/",
+      imgSrc: "./images/FlexiComplete.png",
       imgAlt: "A screenshot of the Flexi Designer and Production Manager"
     },
     {
