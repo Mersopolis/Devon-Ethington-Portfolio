@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/merso/Git/Devon-Ethington-Portfolio/devon-ethington-portfolio/app/layout.tsx"],"sourcesContent":["import type { Metadata } from \"next\";\nimport \"./App.css\";\n\nexport const metadata: Metadata = {\n  title: \"Devon Ethington Portfolio\",\n  description: \"Created with Next.js\",\n};\n\nexport default function RootLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode;\n}>) {\n  return (\n    <html lang=\"en\">\n      <body>\n        <div id=\"root\">{children}</div>\n      </body>\n    </html>\n  );\n}\n"],"names":["metadata","title","description","RootLayout","children","lang","id"],"mappings":";;;;;;;;;AAGO,MAAMA,WAAqB;IAChCC,OAAO;IACPC,aAAa;AACf;AAEe,SAASC,WAAW,EACjCC,QAAQ,EAGR;IACA,qBACE,8OAAC;QAAKC,MAAK;kBACT,cAAA,8OAAC;sBACC,cAAA,8OAAC;gBAAIC,IAAG;0BAAQF;;;;;;;;;;;;;;;;AAIxB"}},
+    {"offset": {"line": 48, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/merso/Git/Devon-Ethington-Portfolio/devon-ethington-portfolio/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}
