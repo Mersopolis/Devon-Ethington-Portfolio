@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "next dev",
     "predeploy": "npm run build",
-    "deploy": "gh-pages --branch main --dist ./ --src {./app,./app**/**,./public,./public**/**,./eslint.config.mjs,./next.config.ts,./package-lock.json,./package.json,./README.md,./tsconfig.json}",
+    "deploy": "gh-pages --branch main --dist ./",
     "start": "npx serve@latest ./build",
     "build": "next build",
     "lint": "eslint",
