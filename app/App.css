@@ -228,8 +228,8 @@ article {
 }
 /* Contact Info */
 #contact-info {
-  margin: auto 2% auto auto;
-  text-align: right;
+  margin: auto auto auto auto;
+  text-align: left;
   list-style: none;
 }
 #contact-info a{
