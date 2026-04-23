@@ -9,11 +9,9 @@ Devon Ethington's website for displaying coding knowledge and experience to pote
 
 ## Table of Contents
 - [Visuals](#visuals)
-- [Installation](#installation)
 - [Usage](#usage)
-- [Tests](#tests)
 - [Questions](#questions)
-- [Contributing](#contributing)
+- [Roadmap](#roadmap)
 - [Credits](#credits)
 - [License](#license)
 
@@ -44,18 +42,12 @@ And like this when 400 pixels wide or narrower:<br/>
 ![The Contact section at 400 pixels wide](./public/images/Contact%20400.png)<br/>
 ![The Resume section at 400 pixels wide](./public/images/Resume%20400.png)<br/>
 
-## Installation
-N/A
-
 ## Usage
 Click on a navigation link at the top of the page to jump to the corresponding section.<br/>
 Click any of the links in the footer at the bottom of the page to be taken to the corresponding profile.<br/>
-Click on a project in the Portfolio section to be taken to the deployed website for the app. Click on "GitHub" to be taken to its GitHub repository.<br/>
+Click on a project in the Portfolio section to be taken to the website for the app. Click on "GitHub" to be taken to its GitHub repository.<br/>
 Enter a name, an email, and a message in the Contact section then click the Send Message button to send me a message. Click the Email link to be taken to your email app, ready to send me an email directly.<br/>
-Click the View/Download My Resume Here button in the Resume section to do so.
-
-## Tests
-N/A
+Click the View/Download My Resume Here button in the Resume section to open the file in a new tab.
 
 ## Questions
 Questions can be directed to this GitHub profile or this email.
@@ -67,11 +59,8 @@ Email: [mersopolis@gmail.com](mailto:mersopolis@gmail.com)
 ## Roadmap
 Projects will be added as they are developed.
 
-## Contributing
-N/A
-
 ## Credits
-Code based on work done by the University of Utah (See commit "Copied React App").<br/>Node.js https://nodejs.org/en/ <br/>npm https://www.npmjs.com/ <br/><br/>Create React App https://create-react-app.dev/ <br/><br/> gh-pages https://www.npmjs.com/package/gh-pages
+Code based on work done by the University of Utah (See commit "Copied React App").<br/>Node.js https://nodejs.org/en/ <br/>npm https://www.npmjs.com/ <br/><br/>Next.js https://nextjs.org/
 
 ## License
 MIT License
