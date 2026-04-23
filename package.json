@@ -4,7 +4,6 @@
   "homepage": "https://mersopolis.github.io/Devon-Ethington-Portfolio/",
   "private": true,
   "dependencies": {
-    "gh-pages": "^6.3.0",
     "idb": "^8.0.3",
     "jsx-runtime": "^1.2.0",
     "next": "^16.2.4",
@@ -13,9 +12,6 @@
   },
   "scripts": {
     "dev": "next dev",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages --branch main --dist ./",
-    "start": "npx serve@latest ./build",
     "build": "next build",
     "lint": "eslint",
     "lint:fix": "eslint --fix"
