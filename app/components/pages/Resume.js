@@ -10,11 +10,12 @@ export default function Resume() {
             <li>Computer Literacy </li>
             <li>Git</li>
             <li>
-              C++
+              Amazon Web Services
               <ul>
-                <li>Windows Standard Library</li>
-              </ul>              
+                <li>AWS CDK</li>
+              </ul>
             </li>
+            <li>Claude Code</li>
             <li>
               Full Stack Web Development:
               <ul>
@@ -25,6 +26,8 @@ export default function Resume() {
                     <li>SQL Databases</li>
                     <li>NoSQL Databases</li>
                     <li>JavaScript</li>
+                    <li>Go language</li>
+                    <li>Ruby</li>
                     <li>Node</li>
                   </ul>
                 </li>
@@ -36,6 +39,12 @@ export default function Resume() {
                   </ul>
                 </li>
               </ul>
+            </li>
+            <li>
+              C++
+              <ul>
+                <li>Windows Standard Library</li>
+              </ul>              
             </li>
             <li>Effective Communication</li>
             <li>Creative Problem Solving</li>
